@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style-type: none;
+  
+}
+.upper{
+    background-image: url(./assets/images/bg-desktop-dark.jpg);
+}
+
+.wrapper,.footer{
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    position: relative;
+    
+}
+.rounded
+{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+
+.inputenter{
+    flex: 1;
+    padding: 1rem;
+    padding-left: 5rem;
+    background: black;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+
+/* .dot{
+    position: absolute;
+    
+    left: 10px;
+
+} */
+
+.inputbutton{
+
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: black;
+    border: none;
+    transition: all 0.7s ease;
+
+
+}
+.inputbutton:hover{
+    color:black;
+    background: white;
+    
+}
+
+.body{
+    background : hsl(235, 21%, 11%);
+    
+   
+}
+
+.todo-container{
+    width: 600px;
+    background-color: hsl(237, 14%, 26%);
+    
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 7px 31px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 31px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 31px 2px rgba(0,0,0,0.75);
+   
+  
+}
+
+.todo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 0.5px solid hsl(234, 39%, 85%) ;
+padding-top: 20px;
+padding-bottom: 20px;
+position: relative;
+       
+}
+
+
+
+.rounder{
+    border-radius: 50%;
+    border: 1px solid grey;
+    background: hsl(237, 14%, 26%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 1s ease-in;
+    left: 10px;
+    position: absolute;
+
+}
+.rounder:hover{
+    background-image: url(./assets/images/bg-desktop-dark.jpg);
+
+}
+
+.todo-item{
+    flex: 1;
+    margin-left: 100px;
+}
+
+
+
+.cancel{
+    /* border-radius: 50%;
+    border: 1px solid grey; */
+    background: hsl(237, 14%, 26%);
+     width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 1s ease-in; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cancel:hover{
+    color: red;
+    background-color: green;
+}
+
+
+
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+
+.footer{
+    background-color: hsl(237, 14%, 26%);
+    border-bottom: 0.5px solid hsl(234, 39%, 85%) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+   
+   
+}
+
+
+.states{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.states > p {
+    margin-left: 10px;
+}
+
